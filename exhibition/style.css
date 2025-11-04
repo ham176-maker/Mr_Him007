@@ -1,0 +1,123 @@
+h1,h2,p1,p {
+  text-align:center; 
+  color:rgb(255, 255, 255)
+} 
+
+h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size:140px; 
+animation: move 2s infinite alternate
+} 
+
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+} 
+
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px; 
+    animation: move 2s infinite alternate-reverse
+}
+
+
+
+p1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font: size 100px;
+
+} 
+
+p{
+    font-family: monospace;
+}
+
+
+img {
+  width:60%;
+  display:block;
+  margin:0 auto;
+}
+
+.TheMovingPictures {
+  width:40%;
+  display:block;
+  margin:0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    img {
+      width:80%;
+    }
+    .TheMovingPictures {
+      width:70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+      width:100%;
+    }
+    .TheMovingPictures {
+      width:100%;
+    }
+}
+
+
+
+
+
+body{
+    margin: 0;
+    height: 100vh; 
+    background: linear-gradient(-45deg, #f200ff, #61c5fb,
+    #46047f, #034aff, #2bff00);
+    background-size: 400% 400%;
+    animation: bg 5s ease infinite;
+} 
+
+@keyframes bg{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}    
+
+
+span1 {
+  color: rgb(255, 242, 0);
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif
+  text-transform: uppercase;
+letter-spacing: 1px;
+linae-height: 11px;
+} 
+
+span2 {
+  color: rgb(180, 237, 255);
+  font-size: 20px;
+  font-family: courier;
+  text-transform: uppercase;
+letter-spacing: 1px;
+linae-height: 11px; 
+} 
+
+span3 {
+  color: rgb(255, 0, 200);
+  font-size: 20px;
+  font-family: courier;
+  text-transform: uppercase;
+letter-spacing: 1px;
+linae-height: 11px;
+}
