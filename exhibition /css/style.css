@@ -1,0 +1,46 @@
+h1,h2,p {
+  text-align:center;
+}
+
+img {
+  width:60%;
+  display:block;
+  margin:0 auto;
+}
+
+.TheMovingPictures {
+  width:40%;
+  display:block;
+  margin:0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    img {
+      width:80%;
+    }
+    .titlestuff {
+      width:70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+      width:100%;
+    }
+    .titlestuff {
+      width:100%;
+    }
+}
+
+
+
+
+
+body{
+    margin: 0;
+    height: 100vh; 
+    background: linear-gradient(-45deg, #f200ff, #61c5fb,
+    #46047f, #034aff, #2bff00);
+    background-size: 400% 400%;
+    animation: bg 12s ease infinite;
+}
