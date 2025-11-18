@@ -1,0 +1,63 @@
+h1{
+    color: aliceblue; 
+    font-size: 100px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    animation: move 2s infinite alternate-reverse
+} 
+@keyframes move {
+    0%{
+        transform: translateX(0);
+    }
+100% {
+    transform: translateX(100px);
+}
+}
+
+
+.btn{
+padding: 20px 40px;
+margin: 0 0 0 3px; 
+background: var(--color);
+float: left;
+} 
+
+.btn-1{
+    --color: aquamarine; 
+    animation:
+} 
+
+.btn-2{
+    --color: blueviolet; 
+}
+
+.btn-3{
+    --color:black; 
+}
+
+.btn-4{
+    --color:palevioletred; 
+} 
+
+.btn-5{
+    --color:rgb(216, 123, 0); 
+} 
+
+.btn-6{
+    --color:rgb(22, 35, 118); 
+} 
+
+.btn-7{
+    --color:rgb(203, 67, 67); 
+}
+
+.btn-8{
+    --color:rgb(76, 16, 125); 
+} 
+
+.btn-9{
+    --color:rgb(56, 255, 1); 
+} 
+
+.btn-10{
+    --color:rgb(123, 80, 6); 
+}
